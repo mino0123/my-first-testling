@@ -1,9 +1,11 @@
 var assert = require('assert');
 var global = this;
 describe('named function expression', function () {
-    var fn = function func(){};
     it('should not leak outer scope', function (done) {
-        assert.equal(global.func, undefined);
+        (function () {
+            var fn = function func(){};
+        }());
+        assert.equal(typeof func, 'undefined');
         done();
     });
 });
