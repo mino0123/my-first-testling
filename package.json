@@ -1,6 +1,6 @@
 {
   "name": "my-first-testling",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "devDependencies": {
     "mocha": "~1.7.4"
   },
