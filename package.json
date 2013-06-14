@@ -6,11 +6,13 @@
   },
   "testling": {
     "browsers": [
-        "ie6", "ie7", "ie8", "ie9",
-        "firefox/21", "chrome/29", "opera/12", "safari/5.1"
+        "ie/6..latest",
+        "chrome/latest",
+        "firefox/latest",
+        "opera/latest",
+        "safari/latest"
     ],
     "harness" : "mocha",
     "files": "test/*.js"
-  },
-  "license": "MIT"
+  }
 }
