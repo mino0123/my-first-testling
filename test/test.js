@@ -15,5 +15,6 @@ describe('input要素にサポートされていない値を入力', function ()
         var input = document.createElement('input');
         input.type = 'InvalidType';
         assert.equal(input.type, 'text');
+        done();
     });
 });
