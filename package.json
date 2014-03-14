@@ -10,7 +10,10 @@
         "chrome/latest",
         "firefox/latest",
         "opera/latest",
-        "safari/latest"
+        "safari/latest",
+        "iphone/latest",
+        "ipad/latest",
+        "android-browser/latest"
     ],
     "harness" : "mocha",
     "files": "test/*.js"
